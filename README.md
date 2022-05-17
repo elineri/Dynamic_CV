@@ -30,7 +30,7 @@ The menu could be better with a hamburger menu which you could open and close. B
 ## TECHNICAL CHOICES
 Here are a few of my technical choices.
 
-For the easter eggs I have used JavaScript and the function addEventListener. For easter egg the event runs when clickin on a specific element on the page which can be found with id. The second easter egg the event will run when a key is pressed down. The input is then saved to a variable, the variable will emty itself if the input is not correct, correct input is '1337', for the event to run.
+For the easter eggs I have used JavaScript and the function addEventListener. For easter egg the event runs when clicking on a specific element on the page which can be found with id. The second easter egg the event will run when a key is pressed down. The input is then saved to a variable, the variable will empty itself if the input is not correct, correct input is '1337', for the event to run.
 
 For Education and Experience the application loads JSON-files. For this I have used in the JavaScript XMLHttpRequest to get the data from the JSON-files.
 
