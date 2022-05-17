@@ -29,6 +29,7 @@ The menu could be better with a hamnurger menu which you could open and close. B
 ## TECHNICAL CHOICES
 
 ## COMPATIBILITY
+All the functions I have used is compatiable with the most common web browsers and the latest versions. For example media is not compatiable with Opera mini, IE or KaiOS browser, but since I think this is a good function to use I have chosen to use this. 
 
 ## EASTER EGG 1
 To activate easter egg 1 click the footer text 'Elin Ericstam'
