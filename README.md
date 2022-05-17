@@ -17,7 +17,7 @@ This is a school project to create a CV-page.
 The CV-page has been created with HTML, Css and JavaScript.
 
 ## AVAILABILITY
-I have made the site as available as possible. I think the page is easy to navigate with a clear menu and headlines which makes it easy to percieve information on the page. For the pictures I have added and alternative text if the pictures wouldn't load. Since the user won't give any input more more than the easter egg there aren't as much need to give a message if input information is missing or something similar. 
+I have made the site as available as possible. I think the page is easy to navigate with a clear menu and headlines which makes it easy to percieve information on the page. For the pictures I have added and alternative text if the pictures wouldn't load. Since the user won't give any input on more than the easter egg there aren't as much need to give a message if input information is missing or something similar. 
 
 ## SEMANTIC
 I have used semantic tags such as header, nav, main, section, article and footer as much as possible so it's clear what each part is on the pages. There are a few occasions I have used div, for example the easter eggs where it's a part which won't show on the page and is only used as a function on the page to show a popup message. 
