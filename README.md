@@ -17,10 +17,10 @@ This is a school project to create a CV-page.
 The CV-page has been created with HTML, Css and JavaScript.
 
 ## AVAILABILITY
-I have made the site as available as possible. I think the page is easy to navigate with a clear menu and headlines which makes it easy to percieve information on the page. For the pictures I have added and alternative text if the pictures wouldn't load.
+I have made the site as available as possible. I think the page is easy to navigate with a clear menu and headlines which makes it easy to percieve information on the page. For the pictures I have added and alternative text if the pictures wouldn't load. Since the user won't give any input more more than the easter egg there aren't as much need to give a message if input information is missing or something similar. 
 
 ## SEMANTIC
-I have used semantic tags such as header, nav, main, section, article and footer as much as possible so it's clear what each part is on the pages. There are a few occasions I have used div, for example the easter eggs where it's a part which won't show on the page and doesn't need a specific name. 
+I have used semantic tags such as header, nav, main, section, article and footer as much as possible so it's clear what each part is on the pages. There are a few occasions I have used div, for example the easter eggs where it's a part which won't show on the page and is only used as a function on the page to show a popup message. 
 
 ## RESPONSIVE
 The page is responsive and the information can be read even on the smallest screen I could find which was Galaxy fold. I have used media to adapt the page content when the width is smaller than 1024px. I have chosen 1024px since the width of the navigation bar will not fit to the screen and the normal layout of the page didn't work as well on a Nest Hub screen. I have used Flex, and adjust the size with % to adapt the content on the page. 
@@ -28,7 +28,7 @@ The page is responsive and the information can be read even on the smallest scre
 The menu could be better with a hamburger menu which you could open and close. But I think my current solution works now as I have made the menu to go in column direction for smaller screens and the text and padding is smaller so it doesn't take over a small screen.
 
 ## TECHNICAL CHOICES
-Here are a couple of my technical choices.
+Here are a few of my technical choices.
 
 For the easter eggs I have used JavaScript and the function addEventListener. For easter egg the event runs when clickin on a specific element on the page which can be found with id. The second easter egg the event will run when a key is pressed down. The input is then saved to a variable, the variable will emty itself if the input is not correct, correct input is '1337', for the event to run.
 
