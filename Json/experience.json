@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "role": "Datasamordnare",
+        "company": "Implenia Sverige",
+        "location": "Varberg, Sverige",
+        "period": "may 2019 - nuvarande"
+    },
+    {
+        "id": 2,
+        "role": "Coordinator",
+        "company": "Synectics Solutions",
+        "location": "Stoke-on-Trent, England",
+        "period": "jan 2016 - dec 2018"
+    },
+    {
+        "id": 3,
+        "role": "Städare",
+        "company": "Gekåsbyn Ullared",
+        "location": "Falkenberg, Sverige",
+        "period": "apr - sep 2014, sep - dec 2015"
+    },
+    {
+        "id": 4,
+        "role": "Städare",
+        "company": "TidyMe",
+        "location": "Sydney, Australien",
+        "period": "jun - aug 2015"
+    },
+    {
+        "id": 5,
+        "role": "Städare vid militärfartyg",
+        "company": "Forward Horizons",
+        "location": "Sydney, Australien",
+        "period": "maj 2015"
+    },
+    {
+        "id": 6,
+        "role": "Gurkförpackare",
+        "company": "Eden Farms",
+        "location": "Bundaberg, Australien",
+        "period": "dec 2014 - mar 2015"
+    }
+]

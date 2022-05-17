@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "subject": "Systemutveckling .NET",
+        "school": "Campus Varberg",
+        "period": "2021 - 2023"
+    },
+    {
+        "id": 2,
+        "subject": "Programmering 1",
+        "school": "Miroi",
+        "period": "2018"
+    },
+    {
+        "id": 3,
+        "subject": "Estetiska programmet",
+        "school": "Peder Skrivares skola",
+        "period": "2009 - 2012"
+    }
+]

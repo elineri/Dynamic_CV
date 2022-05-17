@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap');
+
+* {
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #f7ede2;
+    font-family: sans-serif;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+main{
+    padding: 50px;
+    align-content: center;
+    margin: auto;
+    width: 820px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Akshar', sans-serif;
+    padding-bottom: 20px;
+}
+
+h3, h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    padding: 20px;
+    background-color: #f6bd60;
+    width: 100%;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+/* Header start */
+header {
+    text-align: center;
+    background-color: #f5cac3;
+    padding: 20px;
+    width: auto;
+}
+
+h1 {
+    font-family: 'Akshar', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px;
+}
+/* Header end */
+
+/* Navigation start */
+nav{
+    width: 100%;
+}
+nav .menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #84a59d;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+nav .menu li {
+    width: max-content;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0;
+}
+
+nav .menu a:hover {
+    color: #f6bd60;
+}
+
+nav .menu .active a:hover {
+    color: black;
+}
+
+nav .menu .active {
+    background-color: #f6bd60;
+}
+/* Navigation end */
+
+/* About start */
+.about{
+    background-color: #f5cac3;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+}
+
+.about article{
+    padding-right: 2rem;
+}
+
+.about img{
+    max-width: 15rem;
+    max-height: 15rem;
+}
+/* About end */
+
+/* Education start */
+.education {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.school h3 {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-top:#84a59d 2px solid;
+}
+/* Education end */
+
+/* Portfolio start */
+.projects{
+    display: flex;
+    gap: 2;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 300px;
+    height: 300px;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.project h3{
+    margin-bottom: 20px;
+}
+
+.project img{
+    margin: 20px 0;
+    width: 250px;
+    border: 2px solid #84a59d;
+    border-radius: 20px;
+}
+
+.button {
+	font-size: 16px;
+	padding: 5px 10px;
+	border: 1px solid black;
+	background-color: #f5cac3;
+	background-image: linear-gradient(top, #fff, #f0f0f0);
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+	color: black;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	cursor: pointer;
+	transition: all 0.2s ease-out;
+}
+.button:hover {
+    border-color: #999;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+.button:active {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25) inset;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+	transition: opacity 200ms;
+    visibility: hidden;
+	opacity: 0;
+    z-index: 2;
+}
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+.cancel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+}
+.cancel:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup {
+	margin: 75px auto;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #666;
+	width: 450px;
+	box-shadow: 0 0 50px rgba(0,0,0,0.5);
+	position: relative;
+    z-index: 3;
+}
+.content {
+    max-height: 400px;
+    overflow: auto;
+    z-index: 3;
+}
+.popupInfoTxt{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+/* Portfolio end */
+
+/* Experience start */
+
+.experience {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.work h3 {
+    border:black solid 1px;
+    background-color: #f5cac3;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.work h4 {
+    margin-bottom: 5px;
+    font-size: large;
+    padding-left: 6px;
+}
+
+.work p{
+    padding: 5px 0 5px 6px;
+}
+/* Experience end */
+
+/* Contact start */
+.contact {
+    display: flex;
+    gap: 2rem;
+    flex-shrink: 1;
+    flex-direction: column;
+}
+
+.contact > * {
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1em;
+    width: 20em;
+    gap: 1rem;
+    background-color: #f5cac3;
+}
+
+.contact-type {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact img {
+    width: 2em;
+}
+/* Contact end */
+
+/* Easter egg 2 start */
+#egg2 {
+    display: none;
+} 
+
+.eggModal{
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.eggModal-content{
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 10rem; 
+    text-align: center;
+    border-radius: 1rem;
+    font-family: 'Akshar', sans-serif;
+    font-size: 3em;
+}
+
+.eggModal-content img{
+    width: 80%;
+    border-radius: 1rem;
+}
+
+.close {
+    color:#f5cac3;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color:#84a59d;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Easter egg 2 end */
+
+@media all and (max-width: 1024px){
+    header{
+        width:auto;
+    }
+
+    main{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        width: 80%;
+    }
+
+    /* Menu */
+    nav{
+        width: auto;
+    }
+
+    nav .menu{
+        flex-direction: column;
+        width: auto;
+    }
+
+    nav .menu li{
+        width: auto;
+        text-align: left;
+        padding: 0.5rem 0 0.5rem 0.5rem;
+        font-size: small;
+    }
+
+    /* About */
+    .about{
+        flex-direction: column;
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .about img{
+        padding-top: 1rem;
+        width: 10em;
+        height: 10em;
+    }
+
+    /* Portfolio */
+    .popup {
+        width: 80%;
+    }
+
+    /* Experience */
+    .work h3{
+        width: 85vw;
+    }
+
+    /* Contact */
+    .contact-type{
+        width: 80vw;
+    }
+}
+
+
+
+
+
