@@ -27,6 +27,8 @@ The page is responsive and the information can be read even on the smallest scre
 The menu could be better with a hamburger menu which you could open and close. But I think my current solution works now as I have made the menu to go in column direction for smaller screens and the text and padding is smaller so it doesn't take over a small screen.
 
 ## TECHNICAL CHOICES
+Here are a couple of my technical choices.
+
 For the easter eggs I have used JavaScript and the function addEventListener. For easter egg the event runs when clickin on a specific element on the page which can be found with id. The second easter egg the event will run when a key is pressed down. The input is then saved to a variable, the variable will emty itself if the input is not correct for the event to run which is '1337'.
 
 For Education and Experience the application loads JSON-files. For this I have used in the JavaScript XMLHttpRequest to get the data from the JSON-files.
