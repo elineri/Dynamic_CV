@@ -34,6 +34,8 @@ For the easter eggs I have used JavaScript and the function addEventListener. Fo
 
 For Education and Experience the application loads JSON-files. For this I have used in the JavaScript XMLHttpRequest to get the data from the JSON-files.
 
+For my react page (which is seperate) I have a loading message when my GitHub repos are loaded from my GitHub page. For this I have used setIsPending and useState. This will be set as true from the start. When all the repos have been loaded to the page this is then set to false so the loading message disappears. I have also used a set Timeout to make this delay a second so the user have time to see the message for this assignment.
+
 ## COMPATIBILITY
 All the functions I have used is compatiable with the most common web browsers and the latest versions. I used the website https://caniuse.com to search for different functions I have used. One function which that I have used that doesn't work for all broswers is media. It's not compatiable with Opera mini, IE or KaiOS browser, but since I think this is a good function to use to make the page adapt to screen size and since the browers aren't very common I have chosen to use this. 
 
