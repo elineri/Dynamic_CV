@@ -24,12 +24,12 @@ I have used semantic tags such as header, nav, main, section, article and footer
 ## RESPONSIVE
 The page is responsive and the information can be read even on the smallest screen I could find which was Galaxy fold. I have used media to adapt the page content when the width is smaller than 1024px. I have chosen 1024px since the width of the navigation bar will not fit to the screen and the normal layout of the page didn't work as well on a Nest Hub screen. I have used Flex, and adjust the size with % to adapt the content on the page. 
 
-The menu could be better with a hamnurger menu which you could open and close. But I think it works now as I have made the menu to go in column direction for smaller screens and the text and padding is smaller so it doesn't take over a small screen.
+The menu could be better with a hamburger menu which you could open and close. But I think my current solution works now as I have made the menu to go in column direction for smaller screens and the text and padding is smaller so it doesn't take over a small screen.
 
 ## TECHNICAL CHOICES
 
 ## COMPATIBILITY
-All the functions I have used is compatiable with the most common web browsers and the latest versions. For example media is not compatiable with Opera mini, IE or KaiOS browser, but since I think this is a good function to use I have chosen to use this. 
+All the functions I have used is compatiable with the most common web browsers and the latest versions. I used the website https://caniuse.com to search for different functions I have used. One function which that I have used that doesn't work for all broswers is media. It's not compatiable with Opera mini, IE or KaiOS browser, but since I think this is a good function to use to make the page adapt to screen size I have chosen to use this. 
 
 ## EASTER EGG 1
 To activate easter egg 1 click the footer text 'Elin Ericstam'
