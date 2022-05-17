@@ -20,7 +20,7 @@ The CV-page has been created with HTML, Css and JavaScript.
 I have made the site as available as possible. I think the page is easy to navigate with a clear menu and headlines which makes it easy to percieve information on the page. For the pictures I have added and alternative text if the pictures wouldn't load.
 
 ## SEMANTIC
-I have used semantic tags such as header, nav, main, section, article and footer as much as possible. There are a few occasions I have used div, for example the easter eggs. 
+I have used semantic tags such as header, nav, main, section, article and footer as much as possible so it's clear what each part is on the pages. There are a few occasions I have used div, for example the easter eggs where it's a part which won't show on the page and doesn't need a specific name. 
 
 ## RESPONSIVE
 The page is responsive and the information can be read even on the smallest screen I could find which was Galaxy fold. I have used media to adapt the page content when the width is smaller than 1024px. I have chosen 1024px since the width of the navigation bar will not fit to the screen and the normal layout of the page didn't work as well on a Nest Hub screen. I have used Flex, and adjust the size with % to adapt the content on the page. 
